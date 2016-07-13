@@ -1,4 +1,5 @@
-set PATH $PATH /usr/home/q/.cabal/bin/
+eval (python -m virtualfish compat_aliases)
+set PATH $PATH $HOME/.cabal/bin/
 rvm default
 
 abbr -a pv pkg version | grep "<"
